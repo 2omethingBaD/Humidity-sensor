@@ -10,7 +10,7 @@
 #define reset_pin 29
 #define screen_w 128
 #define screen_h 64
-#define DHTTYPE DHT11
+#define DHTTYPE DHT22
 
 DHT dht(sensor_pin, DHTTYPE);
 Adafruit_SSD1306 display(screen_w, screen_h, &Wire, reset_pin);
@@ -42,7 +42,7 @@ void setup() {
 
 
 void loop() {
-  delay(1000);
+  delay(2000);
   display.clearDisplay();
 
   // read temp and humidity
