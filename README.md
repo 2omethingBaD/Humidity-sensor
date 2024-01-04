@@ -29,6 +29,6 @@ Stickers where used to secure the screen in place and to clean up the desighn. T
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231119_004143.jpg?raw=true)
 The device was then re-hooked up to the enclosure itself where the sensor was run to a cutout in the back of the encluser and the inled and outlet for the water was hooked back up to the resivaour and misting spickets.
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231209_171022.jpg?raw=true)
-![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231209_171035.jpg?raw=true)
-![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231209_171045.jpg?raw=true)
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231209_172133.jpg?raw=true)
+![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231209_171045.jpg?raw=true)
+
