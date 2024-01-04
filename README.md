@@ -1,33 +1,37 @@
-# Enclsure humidity controller
-Arduino code and circuit diagram for my snake's modified humidity controller. This project uses a temp and humidity sensor to mist the enclosure once the humidity drops below a certan percentage, this percentage along with the temprature in ferenheit and the misting motor status is displayed on an olde screen.
+# Snake Enclosure Humidity Controller
+## Overview
+This repository contains the Arduino code and circuit diagram for a customized humidity controller designed for a snake enclosure. The project utilizes a temperature and humidity sensor to activate a misting system when the humidity drops below a specified percentage. The current humidity percentage, temperature in Fahrenheit, and misting motor status are displayed on a 0.96-inch OLED screen.
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231119_002036.jpg?raw=true)
 
-## The before
-This project was made using parts form the humidity controller I was previously using. However, this device was timer based insted of being sensor based like I wanted.
+
+## Project Evolution
+### Initial Setup
+The project originated from repurposing components from a pre-existing humidity controller, which was timer-based rather than the desired sensor-based approach.
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231112_144441.jpg?raw=true)
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231112_144403.jpg?raw=true)
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231112_144813.jpg?raw=true)
 The power cord, moter, and casing where thaken from this device.
 
-## The circut 
-The circuit is powered by 2 usb power cords (one to power the motor one for the microconntroller). along with the previously mentorned motor it also uses a TISEKER Mini Nano V3.0 ATmega328P Microcontroller Board, a dht22 temp and humidity sensor, a 0.96 Inch OLED dispaly, and an active buzzer to indicate power.
+### Circuit Details 
+he circuit is powered by two USB power cords (one for the motor, one for the microcontroller). Components include a TISEKER Mini Nano V3.0 ATmega328P Microcontroller Board, a DHT22 temperature and humidity sensor, a 0.96-inch OLED display, and an active buzzer for power indication.
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231118_214153.jpg?raw=true)
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231118_213942.jpg?raw=true)
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231118_214028.jpg?raw=true)
 
-## The housing modifications
-I decided to use the same casing the old device used since it alredy had propper cutouts and supports for the motor to fit into however, other modifications to fit the new components had to be made.
-The first modification was made for the sensor so that it would be able to be placed inside of the enclosure while the main device is outside of it. This was done by burning a hole in the back of the plastic casing using an old saldering iron. 
+### Housing Modifications
+To integrate the new components, modifications were made to the existing casing. Custom cutouts and supports were implemented, with specific adjustments for the sensor placement, circuit board fitting, and screen installation.
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231118_223632.jpg?raw=true)
-The secong modification was done using the same saldeing iron to burn away the old circut board's supports so that the new components could fit better.
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231118_223828.jpg?raw=true)
-The final modification was made for the olded screen, again using an old soldering iron a square mesured to the size of the screen was cut out.
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231118_223611.jpg?raw=true)
 
-## The finished product
-Stickers where used to secure the screen in place and to clean up the desighn. The 2 usb power cords where plugged into a dule wall adaptor that was then plugged into a smart home plug so that the device could be controlled remotly.
+
+## Completion and Deployment
+### Final Touches
+Stickers were strategically applied for securing the screen and enhancing the design. The dual USB power cords were connected to a wall adaptor, which, in turn, was plugged into a smart home plug for remote control capabilities.
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231119_004143.jpg?raw=true)
-The device was then re-hooked up to the enclosure itself where the sensor was run to a cutout in the back of the encluser and the inled and outlet for the water was hooked back up to the resivaour and misting spickets.
+
+### Integration with Snake Enclosure
+The device was reconnected to the snake enclosure, where the sensor was routed through a cutout in the back. The inlet and outlet for the water were reconnected to the reservoir and misting spigots.
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231209_171022.jpg?raw=true)
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231209_172133.jpg?raw=true)
 ![alt text](https://github.com/2omethingBaD/Humidity-sensor/blob/main/img/20231209_171045.jpg?raw=true)
